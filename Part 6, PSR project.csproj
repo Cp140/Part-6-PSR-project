@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -72,9 +76,23 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Icon_Firox_aktion.webp" />
+    <None Include="Resources\Pete_the_rock.webp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confiscatascissors.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6aac3fb49f08e5590d19c1977110dc0c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_8du96SQUQ0NlWmWvVu20Zw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b162322d-dd41-441f-be3f-1d51dbf88735.b154a941529ee1727eae606a9ad6a370.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
